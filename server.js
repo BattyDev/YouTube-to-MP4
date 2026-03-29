@@ -5,7 +5,7 @@ const fs = require('fs');
 const crypto = require('crypto');
 
 const app = express();
-const PORT = 30001;
+const PORT = 3001;
 const DOWNLOADS_DIR = path.join(__dirname, 'downloads');
 
 app.use(express.json());
